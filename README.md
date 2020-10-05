@@ -1,2 +1,1 @@
-# react-banking-app
-A simple react based banking app
+# beginner-react-app-guide
