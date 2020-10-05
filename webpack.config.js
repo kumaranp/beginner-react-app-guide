@@ -19,7 +19,7 @@ module.exports = {
     extensions: ['*', '.js'],
   },
   output: {
-    path: path.resolve(__dirname, 'public'),
+    path: path.resolve(__dirname, 'dist'),
     filename: 'simple-banking-app.js',
     chunkFilename: '[name].js'
   },
