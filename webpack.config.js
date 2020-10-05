@@ -33,6 +33,7 @@ module.exports = {
     }),
   ],
   devServer: {
+    publicPath:'/dist/',
     historyApiFallback: true,
     contentBase: './static',
     hot: true,
