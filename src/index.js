@@ -1,9 +1,5 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import Bank from './Bank'
 
-import App from './App';
-
-ReactDOM.render(
-  <App />,
-  document.getElementById('simple-banking-app')
-);
+ReactDOM.render(<React.StrictMode><Bank /></React.StrictMode>, document.getElementById('root'));
