@@ -19,7 +19,7 @@ module.exports = {
     extensions: ['*', '.js'],
   },
   output: {
-    path: path.resolve(__dirname, 'public'),
+    path: path.resolve(__dirname, 'dist'),
     filename: 'simple-banking-app.js',
     chunkFilename: '[name].js'
   },
@@ -29,12 +29,12 @@ module.exports = {
     // Take Reference of HTML File.
     new HtmlWebpackPlugin({
       inject: true,
-      template: path.resolve(__dirname, 'static/index.html'),
+      template: path.resolve(__dirname, 'index.html'),
     }),
   ],
   devServer: {
+    publicPath:'/dist/',
     historyApiFallback: true,
-    contentBase: './static',
     hot: true,
   }
 };
