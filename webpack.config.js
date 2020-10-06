@@ -19,7 +19,7 @@ module.exports = {
     extensions: ['*', '.js'],
   },
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'public'),
     filename: 'simple-banking-app.js',
     chunkFilename: '[name].js'
   },
@@ -33,7 +33,6 @@ module.exports = {
     }),
   ],
   devServer: {
-    publicPath:'/dist/',
     historyApiFallback: true,
     contentBase: './static',
     hot: true,
