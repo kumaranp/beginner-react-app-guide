@@ -7,7 +7,7 @@ import {  Dashboard,  SignIn} from './modules';
 export default function App() {
   return (
     <Fragment>
-      <Router history={browserHistory}>
+      <Router history={browserHistory} basename="/beginner-react-app-guide">
         <h1>Simple Banking App</h1>
         <Switch>
           <Route path="/dashboard">

@@ -4,8 +4,6 @@
   "description": "React -Node",
   "main": "index.js",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "start": "webpack-dev-server --open --mode development",
     "build": "webpack --mode production --progress",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/kumaranp/beginner-react-app-guide/issues"
   },
-  "homepage": "http://kumaranp.github.io/beginner-react-app-guide/static/index.html",
+  "homepage": "http://kumaranp.github.io/beginner-react-app-guide/#readme",
   "dependencies": {
     "bootstrap": "^4.5.2",
     "gh-pages": "^3.1.0",
